@@ -1,0 +1,4 @@
+{
+    "testRepo": "pricing-card-solution",
+    "pathToFile": "cypress/integration/tests/test.spec.js"
+}
