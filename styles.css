@@ -40,21 +40,32 @@ p{
 	text-align:center;
 	margin-bottom:3px;
 }
-
-a{
-	text-decoration:none;
-	color:white;
-	font-size:25px;
-	background-color:orange;
-	padding:10px;
-	border-radius: 10px;
-	 display:flex;
-    justify-content:center ;
+.button {
+    text-decoration: none;
+    border: none;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 15px; 
+    padding: 5px 35px; 
+    border-radius: 5px; 
 }
 
-a:hover{
-	background-color:darkorange;
-	color: whitesmoke;
+.btn {
+    width: 10px;
+	height:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: orange;
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box; 
+	margin:0 auto;
+	margin-top:20px;
 }
 
-
+.button:hover{
+    background-color: darkorange;
+    color: whitesmoke;
+}
